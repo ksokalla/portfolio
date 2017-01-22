@@ -1,4 +1,29 @@
 * {
-	font-family: 'Roboto', sans-serif;
 	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
 }
+
+
+/* menu nawigacyjne - początek*/
+
+nav {
+	width: 100%;
+	background-color: white;
+	
+}
+
+ul {
+	float: right;
+}
+
+ul>li {
+	display: inline;
+}
+
+ul>li>a {
+	text-decoration: none;
+	color: #1ac056;
+	padding: 50px;
+}
+
+/* menu nawigacyjne - koniec*/
