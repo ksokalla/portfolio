@@ -1,20 +1,46 @@
-@media all and (max-width: 1200px)
+@media all and (max-width: 1200px) {
+	
+ ul>li {
+	 	
+		display:block;
+	 	padding: 10px;
+	 	text-align: right;
+	}
+}
 	
 
 	
 	
 	
-@media all and (max-width: 768px)
+@media all and (max-width: 768px){
+	ul>li {
+		
+		display:block;
+		padding: 10px;
+	}
+}
 	
 
 	
 	
 	
-@media all and (max-width: 680px)
+@media all and (max-width: 680px) {
+	 ul>li {
+		 
+		 display:block;
+		 padding: 10px;
+	}
+}
 	
 
 	
 	
 
-@media all and (max-width: 480px)
+@media all and (max-width: 480px) {
+	ul>li {
+		
+		display:block;
+		padding: 10px;
+	}
+}
 	
