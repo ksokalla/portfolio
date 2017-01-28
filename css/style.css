@@ -26,6 +26,8 @@ section {
 		
 }
 
+
+
 /* General styles - koniec*/
 
 
@@ -223,9 +225,7 @@ i:hover {
 /* kontakt - początek*/
 #kontakt {
 	background-color: #213b50;
-	color: white;
-	height: 55%;
-	width: 100%;
+	color: #fff;
 	overflow: auto;
 }
 #kontakt a {
@@ -245,11 +245,14 @@ input[type="submit"] {
 	font-weight: bold;
 	padding: 10px 20px 10px 20px;
 	border: none;
+	width: auto;
 	text-transform: uppercase;
 	float: right;
+	transition: background 1s ease-in; 
 }
 input[type="submit"]:hover {
 	color: white;
+	background-color: black;
 	cursor: pointer;
 }
 input[type="text"],
@@ -261,6 +264,7 @@ input[type="email"]
 	color: #ffffff;
 	width:100%;
 	height: 35px;	
+	padding-left: 5px;	
 }
 textarea {
 	margin-bottom: 10px;
@@ -269,31 +273,31 @@ textarea {
 	color: #ffffff;
 	width:100%;
 	height: 150px;
+	padding-left: 5px;
 }
 
 #social a {
 	color: #fff;
 	display: inline-block;
 	text-align: center;
-	padding: 10px;
 	border: 1px solid #fff;
 	margin-right: 20px;
-	height: 70px;
-	color: #fff;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	font-size: 3em;
+	transition: background 1s ease-in; 
+	border-radius: 50%;
 }
 
-#social a:visited {
-	color: #fff;
+#social a:hover {
+	color: #213b50;
+	background-color: #fff;
 }
 
-.social-detal {
-	display: inline-block;
-	text-align: center;
-	padding: 10px;
-	border: 1px solid #fff;
-	margin-right: 20px;
-	height: 70px;
-	color: #fff;
+
+address {
+	margin-bottom: 30px;
 }
 
 /* kontakt - koniec*/
@@ -306,7 +310,7 @@ footer {
 	overflow: hidden;
 	
 }
-footer>p {
+footer p {
 	margin-top: 0;
 	padding-left: 60px;
 	padding-top: 5px;
