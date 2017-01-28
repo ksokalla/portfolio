@@ -1,11 +1,40 @@
 @media all and (max-width: 1200px) {
 	
- ul>li {
-	 	
-		display:block;
-	 	padding: 10px;
-	 	text-align: right;
+	#main-nav .toggle	{
+		display: block;
+		color: #1ac056;
+		text-align: right;
+		padding: 10px 20px;
+		font-size: 1.4em;
+		text-transform: uppercase;
+		
 	}
+	
+	#main-nav ul {
+		display: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#main-nav>ul>li {
+		padding: 0;
+	}
+	
+	#main-nav #drop:checked + ul {
+		display: block;
+	}
+	
+	.menu-item {
+		display: block;
+		text-align: right;
+	}
+	
+	#main-nav a {
+		padding: 10px 20px;
+
+		}
+	
+
 }
 	
 
@@ -13,11 +42,9 @@
 	
 	
 @media all and (max-width: 768px){
-	ul>li {
-		
-		display:block;
-		padding: 10px;
-	}
+	.col-1-2 {
+		width: 100%;
+	}	
 }
 	
 
@@ -25,11 +52,12 @@
 	
 	
 @media all and (max-width: 680px) {
-	 ul>li {
-		 
-		 display:block;
-		 padding: 10px;
+	 	
+	
+	#header-content {
+		font-size: 70%;
 	}
+	
 }
 	
 
@@ -37,10 +65,13 @@
 	
 
 @media all and (max-width: 480px) {
-	ul>li {
-		
-		display:block;
-		padding: 10px;
+	
+	#header-content {
+		font-size: 50%;
+	}
+	section {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 	
