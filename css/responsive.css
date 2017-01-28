@@ -34,6 +34,18 @@
 
 		}
 	
+	
+	#portfolio .portfolio-obrazki {
+		width: 50%;
+		display: inline-block;
+		
+	}
+	
+	#portfolio .portfolio-obrazki:last-child {
+		width: 100%;
+		display: block;
+		
+	}
 
 }
 	
@@ -45,6 +57,13 @@
 	.col-1-2 {
 		width: 100%;
 	}	
+	#portfolio .portfolio-obrazki {
+		width: 100%;
+	}
+	
+	#kontakt {
+		text-align: center;	
+	}
 }
 	
 
@@ -57,6 +76,9 @@
 	#header-content {
 		font-size: 70%;
 	}
+	#ikonki {
+	margin-right: 10px;
+}
 	
 }
 	
@@ -67,11 +89,18 @@
 @media all and (max-width: 480px) {
 	
 	#header-content {
-		font-size: 50%;
+		
 	}
 	section {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	
+	#header-content {
+		width: 300px;
+		
+	}
+	
+	
 }
 	

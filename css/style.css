@@ -88,8 +88,9 @@ header {
 	right: 0;
 	margin: auto;
 	color: white;
-	line-height: 110%;
+/*	line-height: 110%;*/
 	transform: translateY(-50%);
+
 }
 
 h1 {
@@ -97,9 +98,6 @@ h1 {
 	font-weight: 300;
 }
 
-h2 {
-	font-weight: 300;
-}
 
 #header-content>h1 {
 	font-size: 5em;
@@ -107,8 +105,8 @@ h2 {
 }
 
 #header-content>h2 {
-	font-size: 2em;
-	font-weight: 100;
+	font-size: 2.5em;
+	font-weight: 300;
 }
 
 
@@ -119,7 +117,7 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 2em;
 }
 
@@ -158,6 +156,7 @@ figure {
 	text-align: center;
 	left:0;
 	right:0;
+	margin: 15px;
 	}
 #skills {
 	overflow: auto;
@@ -184,6 +183,7 @@ figure {
 	display: inline-block;
 	position: relative;
 	font-size: initial;
+	overflow: auto;
 	}
 
 #portfolio1 {
@@ -227,9 +227,7 @@ figure {
 	text-align: center;
 	
 }
-i:hover {
-	color: green;
-	}
+
 
 /*portfolio - koniec*/
 /* kontakt - początek*/
@@ -243,7 +241,7 @@ i:hover {
 	color: #1ac056;
 }
 #kontakt a:visited {
-	color:#1ac056;
+	color:#fff;
 }
 
 #kontakt a:hover {
@@ -258,11 +256,12 @@ input[type="submit"] {
 	width: auto;
 	text-transform: uppercase;
 	float: right;
-	transition: background 1s ease-in; 
+	transition: background 0.1s ease-in; 
+	color: #fff;
 }
 input[type="submit"]:hover {
-	color: white;
-	background-color: black;
+	color: springgreen;
+	background-color: #fff;
 	cursor: pointer;
 }
 input[type="text"],
@@ -296,8 +295,9 @@ textarea {
 	width: 80px;
 	line-height: 80px;
 	font-size: 3em;
-	transition: background 1s ease-in; 
+	transition: background 0.1s ease-in; 
 	border-radius: 50%;
+	margin-bottom: 10px;
 }
 
 #social a:hover {
